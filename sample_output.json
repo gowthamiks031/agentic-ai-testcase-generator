@@ -1,0 +1,26 @@
+[
+  {
+    "id": "TC001",
+    "type": "Positive",
+    "title": "Login with valid email and password",
+    "steps": [
+      "Navigate to login page",
+      "Enter valid email",
+      "Enter valid password",
+      "Click login"
+    ],
+    "expected_result": "User should be successfully logged in"
+  },
+  {
+    "id": "TC002",
+    "type": "Negative",
+    "title": "Login with invalid password",
+    "steps": [
+      "Navigate to login page",
+      "Enter valid email",
+      "Enter invalid password",
+      "Click login"
+    ],
+    "expected_result": "Error message should be displayed"
+  }
+]
